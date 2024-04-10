@@ -17,8 +17,8 @@ function getRandomPosition() {
   width = Math.floor(width);
   height = Math.floor(height);
 
-  const top = Math.floor(Math.random() * (height - 50));
-  const left = Math.floor(Math.random() * (width - 50));
+  const top = Math.floor(Math.random() * (height - 55));
+  const left = Math.floor(Math.random() * (width - 55));
 
   return { top, left };
 }
